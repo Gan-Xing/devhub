@@ -1,3 +1,15 @@
 [submodule "packages/utils"]
 	path = packages/utils
 	url = https://github.com/Gan-Xing/utils.git
+[submodule "packages/ui"]
+	path = packages/ui
+	url = https://github.com/Gan-Xing/ui.git
+[submodule "apps/web"]
+	path = apps/web
+	url = https://github.com/Gan-Xing/NextTS.git
+[submodule "apps/server"]
+	path = apps/server
+	url = https://github.com/Gan-Xing/NestWeb.git
+[submodule "apps/admin"]
+	path = apps/admin
+	url = https://github.com/Gan-Xing/Antdpro6.git
