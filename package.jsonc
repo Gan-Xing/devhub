@@ -5,12 +5,16 @@
 		"build": "turbo build",
 		"dev": "turbo dev",
 		"lint": "turbo lint",
-		"format": "prettier --write \"**/*.{ts,tsx,md}\""
+		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
+		"build:utils": "cd packages/utils && pnpm run build",
+		"lint:utils": "cd packages/utils && pnpm run lint",
+		"test:utils": "cd packages/utils && pnpm run test"
 	},
 	"devDependencies": {
 		"@repo/eslint-config": "workspace:*",
 		"@repo/typescript-config": "workspace:*",
 		"turbo": "latest",
+		/* UI && Utils */
 		"prettier": "^3.1.0",
 		"@commitlint/cli": "^18.2.0",
 		"@commitlint/config-conventional": "^18.1.0",
@@ -32,7 +36,9 @@
 		"typescript": "^5.3.3",
 		"webpack": "^5.89.0",
 		"webpack-cli": "^5.1.4",
+		/* wechat */
 		"@nestjs/common": "^10.0.0",
+		/* web */
 		"@types/react": "18.2.33",
 		"@types/react-dom": "18.2.14",
 		"@types/country-data": "^0.0.4",
