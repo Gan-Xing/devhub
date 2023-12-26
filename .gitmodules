@@ -13,3 +13,6 @@
 [submodule "apps/admin"]
 	path = apps/admin
 	url = https://github.com/Gan-Xing/Antdpro6.git
+[submodule "packages/wechat"]
+	path = packages/wechat
+	url = https://github.com/Gan-Xing/wechat.git
